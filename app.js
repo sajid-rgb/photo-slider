@@ -88,7 +88,6 @@ const createSlider = () => {
     duration = 1000;
     slideShow();
   }
-  console.log(duration);
   changeSlide(0)
   timer = setInterval(function () {
     slideIndex++;
